@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 22 09:42:29 EDT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>81 seconds (81760 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S7 Device, 6.0, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>64</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S4 Emulator, 4.4, Browser, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>67</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S5 Device, 5.0, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>70</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Google Nexus 7 HD Emulator, 4.4, Browser, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>70</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S4 Device, 4.4, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>73</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S6 Device, 6.0, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>74</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest()'><b>clickLinkTest</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Android Emulator, 5.1, Browser, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>80</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S6 Device, 6.0, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>63</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S7 Device, 6.0, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>66</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S5 Device, 5.0, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>67</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S4 Emulator, 4.4, Browser, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>71</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Android Emulator, 5.1, Browser, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>79</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Google Nexus 7 HD Emulator, 4.4, Browser, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>79</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+<tr>
+<td title='com.yourcompany.SampleSauceTest.clickLinkTest2()'><b>clickLinkTest2</b><br>Test class: com.yourcompany.SampleSauceTest<br>Parameters: Android, Samsung Galaxy S4 Device, 4.4, Chrome, portrait, public void com.yourcompany.SampleSauceTest.clickLinkTest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td></td>
+<td>81</td>
+<td>com.yourcompany.SampleSauceTest@735b5592</td></tr>
+</table><p>
+</body>
+</html>
