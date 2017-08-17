@@ -5,8 +5,8 @@
     <classes>
       <class name="com.yourcompany.SampleSauceTest">
         <methods>
-          <include name="clickLinkTest2" invocation-numbers="6 5 0 4 3 1 2"/>
-          <include name="clickLinkTest" invocation-numbers="6 5 0 4 3 1 2"/>
+          <include name="clickLinkTest2" invocation-numbers="5 4 3"/>
+          <include name="clickLinkTest" invocation-numbers="4 5 3"/>
         </methods>
       </class> <!-- com.yourcompany.SampleSauceTest -->
     </classes>

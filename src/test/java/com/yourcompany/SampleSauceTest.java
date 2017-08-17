@@ -57,12 +57,10 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
         		// Emulators
                 new Object[]{"Android", "Samsung Galaxy S4 Emulator", "4.4", "Browser", "portrait"},
                 new Object[]{"Android", "Google Nexus 7 HD Emulator", "4.4", "Browser", "portrait"},
-                new Object[]{"Android", "Android Emulator", "5.1", "Browser", "portrait"},
-                // Real Devices  - Make sure your Sauce Labs account has access to Real Devices before executing
-                new Object[]{"Android", "Samsung Galaxy S4 Device", "4.4", "Chrome", "portrait"},
-                new Object[]{"Android", "Samsung Galaxy S5 Device", "5.0", "Chrome", "portrait"},
-                new Object[]{"Android", "Samsung Galaxy S6 Device", "6.0", "Chrome", "portrait"},
-                new Object[]{"Android", "Samsung Galaxy S7 Device", "6.0", "Chrome", "portrait"},
+                new Object[]{"Android", "Android Emulator", "5.1", "Browser", "portrait"}
+
+
+
         };
     }
 

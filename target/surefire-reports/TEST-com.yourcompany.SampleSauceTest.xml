@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="com.yourcompany.SampleSauceTest" time="1,012.861" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="com.yourcompany.SampleSauceTest" time="355.124" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.11.6"/>
+    <property name="os.version" value="10.12.5"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/jayepps"/>
     <property name="user.timezone" value="America/New_York"/>
@@ -62,18 +62,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="64.25"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="64.695"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="66.539"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="67.738"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="67.965"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="70.183"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="70.811"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="71.266"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="73.886"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="74.613"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="79.491"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="79.632"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="80.076"/>
-  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="81.716"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="52.812"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="52.973"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="55.459"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="58.853"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest" time="67.202"/>
+  <testcase classname="com.yourcompany.SampleSauceTest" name="clickLinkTest2" time="67.825"/>
 </testsuite>
